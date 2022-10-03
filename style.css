@@ -5,12 +5,52 @@ body{
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 header{
+top: 0;
+}
+
+header div{
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo{
+  width: 8%;
+}
+
+.logoTitle{
+  align-items: baseline;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
   margin-top: 0;
+  padding-right: 0;
+  padding: 0;
+}
+
+.menu{
+  display: flex;
+  margin-right: 0;
+  margin-top: 2rem;
+}
+
+.menu li{
+  list-style: none;
+  margin-right: 2rem;
+}
+hr{
+  border: 1px solid gray;
+}
+main{
+  justify-content: center;
+  align-items: center;
 }
 
 .slider{
@@ -136,5 +176,24 @@ header{
   .navigation-auto{
     margin-top: 180px;
     width: 300px;
+  }
+  .logo{
+    width: 20%;
+  }
+
+  h1{
+    font-size: 1.4rem;
+  }
+  header div{
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .logoTitle{
+    align-items: baseline;
+  }
+
+  .menu{
+    margin-top: .5rem;
   }
 }

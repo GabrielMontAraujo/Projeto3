@@ -10,50 +10,64 @@
 
   <body>
     <header>
-      <h1>A Grande Muralha da China</h1>
+      <div>
+        <ul class="logoTitle">
+          <img class="logo" src="./images/logo.jpg" alt="" />
+          <h1>A Grande Muralha da China</h1>
+        </ul>
+
+        <nav class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Fotos</a></li>
+          <li><a href="#">Sobre</a></li>
+        </nav>
+      </div>
     </header>
-    <div class="slider">
-      <div class="slides">
-        <!-- Radio Buttons-->
-        <input type="radio" name="radio-btn" id="radio1" />
-        <input type="radio" name="radio-btn" id="radio2" />
-        <input type="radio" name="radio-btn" id="radio3" />
-        <input type="radio" name="radio-btn" id="radio4" />
-        <!-- Fim Radio Buttons-->
+    <hr />
+    <main>
+      <div class="slider">
+        <div class="slides">
+          <!-- Radio Buttons-->
+          <input type="radio" name="radio-btn" id="radio1" />
+          <input type="radio" name="radio-btn" id="radio2" />
+          <input type="radio" name="radio-btn" id="radio3" />
+          <input type="radio" name="radio-btn" id="radio4" />
+          <!-- Fim Radio Buttons-->
 
-        <!--Slide Imagens-->
-        <div class="slide first">
-          <img src="./images/Foto01.jpg" alt="foto da Muralha da China" />
+          <!--Slide Imagens-->
+          <div class="slide first">
+            <img src="./images/Foto01.jpg" alt="foto da Muralha da China" />
+          </div>
+
+          <div class="slide">
+            <img src="./images/Foto02.jpg" alt="foto da Muralha da China" />
+          </div>
+
+          <div class="slide">
+            <img src="./images/Foto03.jpg" alt="foto da Muralha da China" />
+          </div>
+
+          <div class="slide">
+            <img src="./images/Foto04.jpg" alt="foto da Muralha da China" />
+          </div>
+          <!--Fim Slide Imagens-->
+
+          <!--Navigation Auto-->
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div>
         </div>
 
-        <div class="slide">
-          <img src="./images/Foto02.jpg" alt="foto da Muralha da China" />
-        </div>
-
-        <div class="slide">
-          <img src="./images/Foto03.jpg" alt="foto da Muralha da China" />
-        </div>
-
-        <div class="slide">
-          <img src="./images/Foto04.jpg" alt="foto da Muralha da China" />
-        </div>
-        <!--Fim Slide Imagens-->
-
-        <!--Navigation Auto-->
-        <div class="navigation-auto">
-          <div class="auto-btn1"></div>
-          <div class="auto-btn2"></div>
-          <div class="auto-btn3"></div>
-          <div class="auto-btn4"></div>
+        <div class="manual-navigation">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
         </div>
       </div>
-
-      <div class="manual-navigation">
-        <label for="radio1" class="manual-btn"></label>
-        <label for="radio2" class="manual-btn"></label>
-        <label for="radio3" class="manual-btn"></label>
-        <label for="radio4" class="manual-btn"></label>
-      </div>
-    </div>
+    </main>
   </body>
 </html>
