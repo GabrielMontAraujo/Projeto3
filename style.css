@@ -5,6 +5,7 @@ body{
   height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: 'Oswald', sans-serif;
 }
 
 header{
@@ -30,6 +31,7 @@ header div{
 nav{
   display: flex;
   flex-direction: row;
+  font-family: sans-serif;
   margin-top: 0;
   padding-right: 0;
   padding: 0;
@@ -183,7 +185,7 @@ main{
   }
 
   h1{
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
   header div{
     align-items: center;
