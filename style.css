@@ -160,6 +160,11 @@ main{
   background-color: #ffffff;
 }
 
+.sobre p{
+text-align: center;
+margin: 3rem;
+}
+
 /*============================================Resposinvo=======*/
 @media screen and (max-width:480px) {
   .slider{
