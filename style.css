@@ -160,6 +160,32 @@ main{
   background-color: #ffffff;
 }
 
+
+h2{
+  text-align: center;
+}
+
+/*============================Fotos=======*/
+
+.Fotos{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contentFotos img{
+  width: 200px;
+  height: 100px;
+}
+
+.contentFotos img:hover{
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+/*======================Sobre=======*/
 .sobre p{
 text-align: center;
 margin: 3rem;
