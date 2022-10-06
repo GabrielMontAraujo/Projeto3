@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -19,13 +19,13 @@
       <div>
         <ul class="logoTitle">
           <img class="logo" src="./images/logo.png" alt="" />
-          <h1>A Grande Muralha da China</h1>
+          <h1 id="home">A Grande Muralha da China</h1>
         </ul>
 
         <nav class="menu">
-          <li><a href="#">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="#foto">Fotos</a></li>
-          <li><a href="#sobre1">Sobre</a></li>
+          <li><a href="#sobSobre">Sobre</a></li>
         </nav>
       </div>
     </header>
@@ -91,7 +91,13 @@
           da dinastia Ming (1368-1644).
         </p>
       </div>
-      <h2 name="foto">Fotos</h2>
+      <h2 id="foto">Fotos</h2>
+      <!--==============================================================Janela de fotos ===========-->
+      <div id="abrirModal" class="janelaModal">
+        <a href="#fechar" title="Fechar" class="fechar">x</a>
+      </div>
+      <!--==================================================FIM da Janela de fotos ===========-->
+
       <div class="Fotos">
         <ul class="contentFotos">
           <img src="./images/Foto05.jpg" alt="" />
@@ -117,6 +123,25 @@
         <ul class="contentFotos">
           <img src="./images/Foto12.jpg" alt="" />
         </ul>
+      </div>
+      <h2 id="sobSobre">Sobre</h2>
+      <div class="sSobre">
+        <p>
+          Por não se tratar de uma estrutura única, as características da Grande
+          Muralha variam de acordo com a região em que os diferentes trechos
+          estão construídos. Devido a diferenças de materiais, condições de
+          relevo, projetos e técnicas de construção, e mesmo da situação militar
+          vivida por cada dinastia, os trechos da muralha apresentam variações.
+          Perto de Pequim, por exemplo, os muros foram construídos com blocos de
+          pedras de calcário; em outras regiões, podem ser encontrados o granito
+          ou tijolos no aparelho das muralhas; nas regiões mais ocidentais, de
+          desertos, onde os materiais são mais escassos, os muros foram
+          construídos com vários elementos, entre os quais faxina (galhos de
+          plantas enfeixados). Em geral os muros apresentam uma largura média de
+          sete metros na base e de seis metros no topo, alçando-se a uma altura
+          média de sete metros e meio. Segundo anunciaram cientistas chineses em
+          abril de 2009, o comprimento total da muralha é de 8.850 km.
+        </p>
       </div>
     </main>
     <script src="script.js"></script>
